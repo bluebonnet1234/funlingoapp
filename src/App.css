@@ -1,0 +1,193 @@
+.flaBorder {
+	height: 5px;
+	width: 100%;
+	background-color: #0093E9;
+	background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+}
+
+.flaBorderBottom {
+  position: absolute;
+  bottom: 0;
+}
+
+.flaWrapper {
+	height: 400px;
+	margin-top: 100px;
+	background-color: #0093E9;
+	background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+	display: flex;
+	padding: 50px;
+	align-items: center;
+}
+
+#fla-message {
+	width: 40%;
+	margin: 10px;
+	text-align: center;
+	font-size: 25px;
+}
+
+#fla-message-name {
+  color:#fff;
+  font-size: 50px;
+}
+
+#fla-message p {
+	font-size: 20px;
+  padding-bottom: 10px;
+}
+
+#fla-options {
+	width: 60%;
+	margin: 10px;
+	text-align: center;
+	font-size: 25px;
+}
+
+.flaOption {
+	height: 150px;
+	width: 200px;
+	text-align: center;
+	border: 5px solid white;
+	border-radius: 10px;
+	margin: 15px;
+	background-color:  #0093E940;
+	display: inline-block;
+}
+
+.flaOption:hover {
+  color: black;
+  background-color:   #08365140;
+}
+
+.flaOptionTitle {
+	font-size: 30px;
+	padding: 20px 5px;
+  color:white;
+}
+
+
+#fla-transform {
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom:0;
+	right:0;
+}
+
+.flaView {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.pirateview {
+	background-image: url("./images/piratecover.png");
+}
+
+.morseview {
+	background-image: url("./images/morsecover.png");
+}
+
+.ferbview {
+	background-image: url("./images/ferbcover.png");
+}
+
+.minionview {
+	background-image: url("./images/minioncover.png");
+}
+
+.shakespeareview {
+	background-image: url("./images/shakespearecover.png");
+}
+
+.reverseview {
+	background-image: url("./images/reversecover.png");
+}
+
+#flaform-wrapper {
+	padding: 20px;
+  margin: auto;
+	width: 50%;
+}
+
+#fla-transform-title {
+  text-align: center;
+  margin: 0 auto;
+  width: 50%;
+}
+
+h2 {
+	text-align: center;
+}
+
+#flaform-input, #fla-transformlist {
+  width: 80%;
+  margin: auto;
+}
+
+.flaTextArea {
+	width: 100%;
+	border: 5px solid #0093E9;
+	border-radius: 10px;
+	box-sizing: border-box;
+	font-size: 20px;
+	resize: none;
+	padding: 10px;
+	margin-bottom: 10px;
+	background-color: #fff;
+}
+
+#fla-convert {
+	width: 60%;
+	border-radius: 5px;
+	padding: 5px 10px;
+	font-size: 18px;
+	box-sizing: border-box;
+	margin-left: 20%;
+	background-color: #0093E9;
+	background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+}
+
+.fla-listitem {
+  border-radius: 10px;
+  box-sizing: border-box;
+  font-size: 15px;
+  padding: 5px 10px;
+  margin: 10px auto;
+  background-color: #fff;
+  text-align: left;
+  width: 80%;
+  border-left: 5px solid #0093E9;
+}
+
+.fla-listitem > p {
+	margin: 5px;
+}
+
+#fla-error {
+	box-sizing: border-box;
+	background-color: #eeb0b0;
+  	padding: 3px;
+	margin: 10px;
+  	text-align: center;
+  	border: 1px solid #bb1515;
+}
+
+.flaErrorHide {
+	display: none;
+}
+
+nav > a {
+	text-decoration: none;
+  	color: black;
+  	font-weight: bold;
+  	padding: 12px;
+  	margin-left: 25px;
+	margin-top: 5px;
+	background-color: #0093E9;
+	background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+	width: 100px;
+	display: block;
+	text-align: center;
+}
